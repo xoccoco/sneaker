@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "oswald";
+    src: url(../font/oswald700.woff2) format(woff2);
+}
+
+@font-face {
+    font-family: "dosis";
+    src: url(../font/dosis300.woff2) format(woff2);
+}
