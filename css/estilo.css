@@ -65,40 +65,23 @@ p {
     display: flex;
     flex-wrap: wrap;   
     gap: 20px;
-    width: 100%;
+    width: 90%;
 }
 
 
 
-.shoes1 {
+.shoes1, .shoes2, .shoes3 {
 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;   
+    gap:10px;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: calc(100%/3 - 14px);
 }
 
-.shoes2 {
 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;   
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: calc(100%/3 - 14px);
-}
-
-.shoes3 {
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;   
-    flex-grow: 0;
-    flex-shrink: 1;
-    flex-basis: calc(100%/3 - 14px);
-}
 
 .shoes1 img {
     width: 100%;
